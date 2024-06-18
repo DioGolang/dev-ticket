@@ -1,0 +1,39 @@
+GET http://localhost:3000/events
+
+###
+# @name createEvent
+POST http://localhost:3000/events
+Content-Type: application/json
+
+{
+  "name": "New Event",
+  "description":"This is a New Event",
+  "date": "2017-01-01T00:00:00",
+  "price": 500
+}
+
+###
+@eventId = {{ createEvent.response.body.id }}
+
+###
+PATCH http://localhost:3000/events/5e41fba5-a942-4c3e-b13d-a9af41ad0f11
+Content-Type: application/json
+
+{
+  "name": "New Event",
+  "description":"This is a New Event",
+  "date": "2017-01-01T00:00:00",
+  "price": 500
+}
+
+###
+DELETE http://localhost:3000/events/5e41fba5-a942-4c3e-b13d-a9af41ad0f11
+Content-Type: application/json
+
+###
+POST http://localhost:3000/events/eb80bcbe-b0a7-492f-8ccd-5f4482852f12/spots
+Content-Type: application/json
+
+{
+  "name": "A3"
+}
