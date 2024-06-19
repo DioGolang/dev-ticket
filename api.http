@@ -16,7 +16,7 @@ Content-Type: application/json
 @eventId = {{ createEvent.response.body.id }}
 
 ###
-PATCH http://localhost:3000/events/5e41fba5-a942-4c3e-b13d-a9af41ad0f11
+PATCH http://localhost:3000/events/7aaea0ae-7e29-4eaa-bb56-a5659dda5495
 Content-Type: application/json
 
 {
@@ -30,10 +30,24 @@ Content-Type: application/json
 DELETE http://localhost:3000/events/5e41fba5-a942-4c3e-b13d-a9af41ad0f11
 Content-Type: application/json
 
+
 ###
-POST http://localhost:3000/events/eb80bcbe-b0a7-492f-8ccd-5f4482852f12/spots
+GET http://localhost:3000/events/df379aa4-e3d0-4f5a-ae10-e4a984e7e926/sposts
+
+###
+POST http://localhost:3000/events/aa8140aa-5036-406c-b42b-d3f61db04d45/spots
 Content-Type: application/json
 
 {
   "name": "A3"
+}
+
+###
+POST http://localhost:3000/events/aa8140aa-5036-406c-b42b-d3f61db04d45/reserve
+Content-Type: application/json
+
+{
+  "spots": ["A3"],
+  "ticket_kind": "full",
+  "email": "test@teste.com"
 }
