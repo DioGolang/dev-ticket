@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExportableFileTemplateSettings">
+    <j2ee_templates>
+      <template name="com.intellij.reactbuddy.arrow_function_component.tsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.arrow_function_component.jsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.class_component.jsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.class_component.tsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.function_component.tsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.function_component.jsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.index.ts" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.index.js" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.mantine._document.jsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.mantine._document.tsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.nextui._document.jsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.nextui._document.tsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.palette.tsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.palette.jsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.previews.tsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.previews.jsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.react_component_test.tsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.react_component_test.jsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.README.md" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.story_template.jsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.story_template.tsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.story_template7.tsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.story_template7.jsx" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.useInitial.js" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="com.intellij.reactbuddy.useInitial.ts" reformat="true" live-template-enabled="false" enabled="false" />
+    </j2ee_templates>
+    <internal_templates>
+      <template name="JSX File.jsx" reformat="true" live-template-enabled="true" enabled="true" />
+    </internal_templates>
+  </component>
+</project>
