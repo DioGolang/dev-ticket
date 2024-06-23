@@ -3,9 +3,9 @@ package repository
 import (
 	"database/sql"
 	"errors"
+	"github.com/devsvasconcelos/dev-ticket/golang/internal/events/domain"
 	"time"
 
-	"github.com/devsvasconcelos/dev-ticket/tree/main/golang/internal/events/domain"
 	_ "github.com/go-sql-driver/mysql"
 )
 
