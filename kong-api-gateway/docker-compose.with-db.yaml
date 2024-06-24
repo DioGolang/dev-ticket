@@ -25,9 +25,10 @@ services:
       KONG_ADMIN_GUI_URL: http://localhost:8002
     extra_hosts:
       - host.docker.internal:host-gateway
-
+  
   db:
     image: postgres:13-alpine
+    network_mode: "host"
     ports:
       - 5432:5432
     environment:
@@ -47,7 +48,7 @@ services:
       interval: 30s
       timeout: 30s
       retries: 3
-
+  
   kong-migrations:
     image: kong:3.7
     command: kong migrations bootstrap
@@ -60,4 +61,5 @@ services:
     depends_on:
       db:
         condition: service_healthy
+
 
